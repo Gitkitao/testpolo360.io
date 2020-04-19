@@ -1,0 +1,287 @@
+body{
+	background-image: url(../img/background_image.png);
+	background-repeat: repeat-x;
+	/* height: 3000px; */
+}
+.w{
+	width:940px;
+	margin:0 auto;
+}
+.clearfix:after,
+.clearfix:before{
+	content:"";
+	display: table;
+	clear: both;
+}
+.header{
+	width:940px;
+	/* background-color:#bfa; */
+	padding-top: 37px;
+	padding-bottom:22px;
+}
+.logo{
+	margin-left:15px;
+	float: left;
+}
+.nav ul{
+	list-style: none;
+	float: right;
+	margin-top:22px;
+}
+.nav li{
+	display: inline;
+	float:left;
+	border-left: 1px dashed #d6d6d6;
+	padding:0 10px 8px;
+}
+.nav a{
+	color: #666;
+	font: 14px georgia bold;
+	/* text-decoration: none; */
+}
+.nav p{
+	color: #b7b7b7;
+	font: 11px tahoma;
+}
+.nav a:hover{
+	color: #a1a1a1;
+	text-decoration: underline;
+}
+.banner{
+	height: 356px;
+	background:url(../img/banner/banner_bg.png) no-repeat bottom;
+	position: relative;
+}
+.pointDiv{
+	position: absolute;
+	top:314px;
+	left:15px;
+}
+.pointDiv a{
+	float: left;
+	width:17px;
+	height:17px;
+	margin-left: 4px;
+	background: url(../img/banner/point.png) no-repeat;
+}
+.pointDiv .active,
+.pointDiv a:hover{
+	background: url(../img/banner/point_active.png) no-repeat;
+}
+/* .content{
+	background-color: red;
+} */
+.content h1{
+	text-align:center;
+	font: 24px georgia bold;
+	padding: 6px 0px 21px 0px;
+	background: url(../img/line1.png) no-repeat bottom;
+	/* padding-bottom: 21px; */
+	margin-bottom: 38px;
+}
+.content .pl , .content .cs, .content .uc,
+.contact .sc , .contact .co, .contact .nu
+{
+	width:300px;
+	/* background-color: yellow; */
+	float:left;	
+}
+.content .cs , .contact .co{
+	margin: 0 20px;
+}
+.content h2{
+	font: 21px georgia;
+	color: #11719e;
+}
+.content .p1{
+	font: 12px helvetica;
+	color:#8c8c8c;
+}
+.content .imgDiv1{
+	width: 299px;
+	height: 190px;
+	margin: 16px 0px 10px 0px;
+	text-align: center;
+	padding-top: 12px;
+	word-spacing: 2px;
+	background:url(../img/content/p1.png) no-repeat;
+}
+.content .imgDiv2{
+	width: 299px;
+	height: 202px;
+	margin: 16px 0px 10px 0px;
+	text-align: center;
+	word-spacing: 2px;
+	background:url(../img/content/p2.png) no-repeat;
+}
+.content .imgDiv3{
+	width: 299px;
+	height: 202px;
+	margin: 16px 0px 10px 0px;
+	text-align: center;
+	word-spacing: 2px;
+	background:url(../img/content/p3.png) no-repeat;
+}
+.content .p2{
+	height:92px;
+	font: 13px helvetica;
+	color: #3e3e3e;
+}
+.content .lm{
+	display: block;
+	width:163px;
+	height: 40px;
+	background: url(../img/content/button1.png) no-repeat;
+	color: #016999;
+	font:12px/40px helvetica;
+	text-indent: 1em;
+	margin-bottom: 35px;
+}
+.contact .sc , .contact .co, .contact .nu{
+	/* height:500px; */
+	/* background-color:yellow; */
+}
+.contact h2{
+	font:18px/1 georgia;
+	color:#444;
+	padding:44px 0 10px 0 ;
+	margin-bottom:15px;
+	border-bottom:1px dashed #d3d3d3;
+}
+.contact .txt1{
+	width:276px;
+	height:33px;
+	line-height: 33px;
+	background: url(../img/contact/txt1.png) no-repeat;
+	border: none;
+	margin: 0 0 16px;
+	padding: 0 10px;
+}
+
+.contact .txt2{
+	width:276px;
+	height:33px;
+	line-height: 33px;
+	background: url(../img/contact/txt2.png) no-repeat;
+	border:none;
+	margin: 0 0 16px;
+	padding: 0 10px;
+}
+.contact .tarea{
+	width:276px;
+	height:114px;
+	background: url(../img/contact/tarea.png) no-repeat;
+	border:none;
+	padding:10px;
+	margin: 0;
+	overflow: auto;/*滚动条*/
+	resize: none;/*设置文本域不能调整大小*/
+}
+.contact .btn2{
+	font:13px georgia;
+	color:#fff;
+	text-align: left;/*靠左*/
+	text-indent: 1em;/*缩进*/
+	width:163px;
+	height:32px;
+	border:none;
+	padding: 0;
+	cursor: pointer;/*设置鼠标指针样式*/
+	margin: 11px 0 23px 0;
+	background: url(../img/contact/btn2.png) no-repeat;
+}
+.contact{
+	background: url(../img/line1.png) no-repeat top;
+}
+.contact .p3{
+	font: 12px/1 helvetica;
+	color:#444;
+}
+.contact .icon{
+	/* 设置字体大小为0,去除空格 */
+	font-size: 0;
+	margin-top:4px;
+}
+.contact .icon a{
+	margin-right: 6px;
+}
+.sc .nl{
+	/* 不同浏览器行高不同 */
+	padding: 30px 0 10px;
+	font: bold 18px/1 "gill sans mt";
+	color:#444;
+}
+.contact .txt3{
+	width:276px;
+	height:33px;
+	line-height: 33px;
+	background: url(../img/contact/txt3.png) no-repeat;
+	border: none;
+	padding: 0 10px;
+	margin: 19px 0 3px 0;
+}
+.contact .btn1{
+	font:13px georgia;
+	color:#fff;
+	text-align: left;/*靠左*/
+	text-indent: 1em;/*缩进*/
+	width:163px;
+	height:32px;
+	border:none;
+	padding: 0;
+	cursor: pointer;/*设置鼠标指针样式*/
+	margin: 11px 0 23px 0;
+	background: url(../img/contact/btn1.png) no-repeat;
+}
+.nu img{
+	float:left;
+	margin-right: 8px;
+}
+.nu p{
+	font:12px/1 helvetica;
+	color:#444;
+	height:58px;
+	border-bottom: 1px dashed #d3d3d3;
+	margin-bottom: 14px;
+	padding: 0 0 9px 9px;
+}
+.nu .btn3{
+	font:13px georgia;
+	color:#fff;
+	text-align: left;/*靠左*/
+	text-indent: 1em;/*缩进*/
+	width:163px;
+	height:32px;
+	border:none;
+	padding: 0;
+	cursor: pointer;/*设置鼠标指针样式*/
+	margin: 11px 0 23px 0;
+	background: url(../img/contact/btn3.png) no-repeat;
+}
+.nu .no_margin{
+	margin-bottom:0;
+}
+.footer{
+	height:173px;
+	background-color: #333;
+	border-top: 10px solid #4c4c4c;
+}
+.footer a, .footer p{
+	color: #999;
+	font: 11px helvetica;
+}
+.footer .copy{
+	float: right;
+}
+.footer .foot{
+	padding-top: 18px;
+}
+.footer p{
+	margin: 0 8px 6px 23px;
+}
+.footer a:hover{
+	color: #cccaca;
+	text-decoration: underline;
+}
+
+
